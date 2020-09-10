@@ -30,6 +30,7 @@ section {
     clip-path:polygon(0 50%, 50% 100%,100% 50%,50% 0);
     width:auto;  
     display:inline-block;
+    /* the rhombus breaks without this display... but this display seems to keep smiley next to, and not under, the image */
     margin:5px;
 }
 
